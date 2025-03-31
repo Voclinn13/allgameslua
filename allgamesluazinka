@@ -1,3 +1,4 @@
+-- Orijinal kod
 -- Issues:
 -- I'm still working on Tracers, I know they can cause huge frame rate drops. (I think I got it running as smooth as it's going to get.)
 -- Phantom Forces: Weird positioning bug with tracers? Tracer positions a bit behind localplayer. (Maybe make the update faster? > RenderPriority.First ?
@@ -2944,3 +2945,6 @@ end))
 if not succ then
 	error(out)
 end
+
+-- Obfuscate edilmiş hali (Görünüşü değişir ve zor okunur)
+local v1=string.char;local v2=print;v2(v1(66,117,32,98,105,114,32,116,101,115,116,32,107,111,100,117,100,117,114,33))
